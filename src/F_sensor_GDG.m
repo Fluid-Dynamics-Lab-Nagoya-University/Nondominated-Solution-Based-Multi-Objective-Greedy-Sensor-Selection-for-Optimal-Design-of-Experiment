@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 function [time_GDG, H, sensors, History]=F_sensor_GDG(U, p, Lmax)
     [n,~]=size(U);
     tic;
@@ -7,3 +8,14 @@ function [time_GDG, H, sensors, History]=F_sensor_GDG(U, p, Lmax)
     [H]=F_calc_sensormatrix(p, n, sensors(1,:));
     
 end
+=======
+function [time_GDG, H, sensors, History]=F_sensor_GDG(U, p, Lmax)
+    [n,~]=size(U);
+    tic;
+    [sensors,History]=F_sensor_GDG_sub(U, p, Lmax);
+    time_GDG=toc;
+    
+    [H]=F_calc_sensormatrix(p, n, sensors(1,:));
+    
+end
+>>>>>>> 6150b0a6442ac2200723bae0ca9384e6c5610ed9
