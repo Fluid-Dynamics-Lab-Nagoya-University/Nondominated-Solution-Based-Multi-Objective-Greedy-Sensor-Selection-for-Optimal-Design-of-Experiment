@@ -73,7 +73,7 @@ If you use the codes in your work, please cite the software itself and relevant 
 ```
 ### Relevent paper reference:
 ```bibtex
-@ARTICLE{9969932,
+@ARTICLE{nakai2022nondominated,
   author={Nakai, Kumi and Sasaki, Yasuo and Nagata, Takayuki and Yamada, Keigo and Saito, Yuji and Nonomura, Taku},
   journal={IEEE Transactions on Signal Processing}, 
   title={Nondominated-Solution-Based Multi-Objective Greedy Sensor Selection for Optimal Design of Experiments}, 
